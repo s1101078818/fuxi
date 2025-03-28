@@ -20,18 +20,10 @@ jobs:
           submodules: true
           lfs: false
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "18"
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8
 
       - name: Install Dependencies
-        run: pnpm install --no-frozen-lockfile
+        run: npm install --force
 
       - name: Build And Deploy
         id: builddeploy
