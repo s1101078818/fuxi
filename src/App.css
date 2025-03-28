@@ -1,0 +1,17 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+}
+
+/* json编辑器的多余按钮去掉 */
+.jsoneditor-sort {
+  display: none !important;
+}
+
+.jsoneditor-repair {
+  display: none !important;
+}
+
+.jsoneditor-transform {
+  display: none !important;
+}
