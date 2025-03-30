@@ -29,11 +29,11 @@ const LinkSource = [
     value: "1",
   },
   {
-    name: "公众号",
+    name: "今日头条",
     value: "2",
   },
   {
-    name: "今日头条",
+    name: "微信公众号",
     value: "3",
   },
   {
